@@ -180670,6 +180670,7 @@ shovelnose
 shovelweed
 shover
 show
+shows
 showable
 showance
 showbird
