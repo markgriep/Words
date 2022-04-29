@@ -7,9 +7,20 @@ namespace Words
     {
         static void Main(string[] args)
         {
-			var x = System.IO.File.ReadAllLines(@"C:\temp\Wordlist-5k.txt");
+			//var x = System.IO.File.ReadAllLines(@"C:\temp\Wordlist-5k.txt");
+			var x = System.IO.File.ReadAllLines(@".\wordlists\Wordlist-5k.txt");
 
-			var z = x.Where(v => v.Length < 6 && v.Length > 2);
+			//var z = x.Where(v => v.Length < 6 && v.Length > 4);
+
+
+			var w = from ff in x
+					where ff.Length > 4	&& ff.Length < 6	
+					orderby ff
+					select ff;
+
+
+
+
 
 			//foreach (var ww in z)
 			//{
@@ -17,10 +28,12 @@ namespace Words
 
 			//}
 
-			System.IO.File.AppendAllLines(@"C:\temp\Wordlist-3-5.txt", z);
+			//System.IO.File.AppendAllLines(@"C:\temp\Wordlist-3-5.txt", z);
+			//System.IO.File.AppendAllLines(@"c:\temp\Wordlist-5.txt", w.Distinct());
+			System.IO.File.WriteAllLines(@"c:\temp\Wordlist-5.txt", w.Distinct());
 
 			Console.WriteLine("Done");
-			Console.ReadKey();
+			//Console.ReadKey();
 
 		}
 	}
