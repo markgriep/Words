@@ -3,6 +3,13 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+
+
+
 # User-specific files
 *.rsuser
 *.suo
