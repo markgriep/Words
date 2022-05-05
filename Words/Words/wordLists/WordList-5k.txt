@@ -4830,9 +4830,11 @@ balloon
 invention
 ego
 fare
+fares
 homework
 disc
 sofa
+sofas
 guarantee
 availability
 radar
@@ -4866,9 +4868,11 @@ beyond
 speculate
 marker
 low
+lows
 preach
 bucket
 bomb
+bombs
 blond
 confession
 provoke
@@ -4890,6 +4894,7 @@ arrow
 trauma
 neighboring
 soak
+soaks
 ribbon
 meantime
 transmit
@@ -4902,7 +4907,9 @@ worldwide
 within
 spy
 slot
+slots
 riot
+riots
 nutrient
 citizenship
 severely
@@ -4914,6 +4921,7 @@ specify
 contributor
 frustrate
 crowd
+crowds
 articulate
 importantly
 transit
