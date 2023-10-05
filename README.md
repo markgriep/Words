@@ -1,8 +1,5 @@
 # Words
+## This is just some utility code for playing with lists of english words
 
-Hmmm. This is the readme in the root
-Direct update to main  3:46:33 PM. 5/5/22
----
-again on main branch 3:57:20 PM. 5/5/22
+### These words are used to generate passphrases
 
-4:15:12 PM. 5/5/22
